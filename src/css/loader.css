@@ -1,22 +1,13 @@
 .loader {
-    background: url(../images/server.jpg) #E4DCD4;
+    background: url(./../images/background.webp) #E4DCD4;
+    background-position: center center;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.loader__image {
-    width: 250px;
-    height: 250px;
-    margin-bottom: 20px;
-}
 
-.__img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-}
 
 .loader__title {
     color: #fa1212;
@@ -50,4 +41,6 @@
 
 .loader_2 {
     color: #fa1212;
+    background-blend-mode: normal;
 }
+
